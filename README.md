@@ -6,7 +6,7 @@ The __most commonly__ used HTML tags are as follow :
 - [small tag ](https://www.w3schools.com/tags/tag_small.asp) - Defines **small** text 
 - [h1 tag ](https://www.w3schools.com/tags/tag_hn.asp) - For the **site title** 
 - [h2 tag ](https://www.w3schools.com/tags/tag_hn.asp) - For the **webpage** 
-- [h3 tag ](https://www.w3schools.com/tags/tag_hn.asp) - For a **article heading **
+- [h3 tag ](https://www.w3schools.com/tags/tag_hn.asp) - For a **article heading**
 - [h4 tag ](https://www.w3schools.com/tags/tag_hn.asp) - For a **sub navigation** inside the article 
 
 ## CSS (Style Sheets)
@@ -24,11 +24,11 @@ column-count : number of columns
  - what a element? <br>
     A simple example is the **text box**, which allows you to enter some textual data on a webpage. Most commonly used web elements are :
     1. Text box
-    2. Button
-    3. Dropdown list
-    4. Hyperlink
-    5. Check Box
-    6. Radio Button.
+    1. Button
+    1. Dropdown list
+    1. Hyperlink
+    1. Check Box
+    1. Radio Button.
 
  - Inline Elements - Mostly of **letters**, **pictures** for instance *span, a, br, input, button, em, strong, textarea*
     - Don't take up and more room than their content need 
@@ -40,3 +40,11 @@ column-count : number of columns
     - Take up the whole width of a page regardless of content
     - Block-level Element ใช้ margin - auto (ต้องกำหนด width ให้กับ element ที่จะจัดให้อยู่กลางหน้าด้วย!) มักใช้กับ div และ Block-level Element อื่นๆ เป็นการจัดกลางหน้าให้ตัว element เอง ไม่เกี่ยวข้องกับ content ด้านใน Element นั้นๆ
     - มันจะจองพื้นที่ส่วนหนึ่งเอาไว้เป็น Block เเนวนอนทั้งหมด
+
+## Margin & Padding
+- Inline Elements - only margin left and right
+![](images/inline-mp.PNG)
+
+- Block level Element - padding and margin all the way around
+![](images/div-mp.PNG)
+
