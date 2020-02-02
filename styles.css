@@ -30,3 +30,55 @@ li {
     text-shadow: 2px 2px #e9e9e9;
 }
 
+p.error {
+    color: red;
+}
+
+/* 
+    note: p.feedback inheritance p.success
+*/
+p.success {
+    color: #11ee3d;
+}
+
+p.success.feedback {
+    border: 1px dashed #11ee3d;
+}
+
+/* text in tag p in div all color purple*/
+div p {
+    color: purple;
+}
+div .error{
+    color: purple;
+}
+
+a[href]{
+    background-color: seagreen;
+}
+
+a[href="example.com"]{
+    background-color: seagreen;
+}
+
+/* 
+    shorten
+*/
+a[href*="example"]{ /* specific attributes  */
+    background-color: seagreen;
+}
+a[href$=".com"]{
+    background-color: seagreen;
+}
+
+div{
+    color: lightcoral;
+    border: 1px solid gray;
+    margin: 40px;
+    font-weight: bold;
+}
+p{
+    border: inherit;
+    margin: inherit;
+}
+

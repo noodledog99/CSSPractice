@@ -21,7 +21,7 @@ column-count : number of columns
 ```
 
 ## Note
- - what a element? <br>
+ - what a **element**? <br>
     A simple example is the **text box**, which allows you to enter some textual data on a webpage. Most commonly used web elements are :
     1. Text box
     1. Button
@@ -41,6 +41,12 @@ column-count : number of columns
     - Block-level Element ใช้ margin - auto (ต้องกำหนด width ให้กับ element ที่จะจัดให้อยู่กลางหน้าด้วย!) มักใช้กับ div และ Block-level Element อื่นๆ เป็นการจัดกลางหน้าให้ตัว element เอง ไม่เกี่ยวข้องกับ content ด้านใน Element นั้นๆ
     - มันจะจองพื้นที่ส่วนหนึ่งเอาไว้เป็น Block เเนวนอนทั้งหมด
 
+- used **equal** to get an exact match - a[href="example.com"]
+- used **Asterix equal** to say it includes this somewhere in value - a[href*="example"]
+- used **dollar sign** equal to say that this comes at the end of value - a[href$=".com"]
+- inherit นั้นเป็น Value ซึ่งถ้าตามหลัง Properties ตัวไหน มันก็จะสืบทอดค่ามาจาก parent โดย Properties ที่มีค่า Default ของตัวเองเป็น inherit และ ใช้ inherit กับ shorthand properties ไม่ได้
+
+
 ## Margin & Padding
 - Inline Elements - only margin left and right
 ![](images/inline-mp.PNG)
@@ -48,3 +54,7 @@ column-count : number of columns
 - Block level Element - padding and margin all the way around
 ![](images/div-mp.PNG)
 
+## Semantic Element
+- A semantic element clearly describes its meaning to both the browser and the developer.
+    - Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+    - Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
