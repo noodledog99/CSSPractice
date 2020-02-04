@@ -8,6 +8,7 @@ The __most commonly__ used HTML tags are as follow :
 - [h2 tag ](https://www.w3schools.com/tags/tag_hn.asp) - For the **webpage** 
 - [h3 tag ](https://www.w3schools.com/tags/tag_hn.asp) - For a **article heading**
 - [h4 tag ](https://www.w3schools.com/tags/tag_hn.asp) - For a **sub navigation** inside the article 
+- [section tag](https://www.w3schools.com/tags/tag_section.asp) - The **section** tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document.
 
 ## CSS (Style Sheets)
 - CSS stands for **C**ascading **S**tyle **S**heets
@@ -56,5 +57,5 @@ column-count : number of columns
 
 ## Semantic Element
 - A semantic element clearly describes its meaning to both the browser and the developer.
-    - Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
-    - Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+    - Examples of non-semantic elements: div and span - Tells nothing about its content.
+    - Examples of semantic elements: form, table, and article - Clearly defines its content.
