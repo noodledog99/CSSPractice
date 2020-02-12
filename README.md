@@ -59,3 +59,10 @@ column-count : number of columns
 - A semantic element clearly describes its meaning to both the browser and the developer.
     - Examples of non-semantic elements: div and span - Tells nothing about its content.
     - Examples of semantic elements: form, table, and article - Clearly defines its content.
+
+## Position & Layout
+- Static - Default of position
+- Relative - Similar to static but we can using **top, left, right, bottom** to set the position
+- Fixed
+- Absolute
+- Sticky - A mixture of **static** and **fixed**
