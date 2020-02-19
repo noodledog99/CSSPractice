@@ -47,6 +47,15 @@ column-count : number of columns
 - used **dollar sign** equal to say that this comes at the end of value - a[href$=".com"]
 - inherit นั้นเป็น Value ซึ่งถ้าตามหลัง Properties ตัวไหน มันก็จะสืบทอดค่ามาจาก parent โดย Properties ที่มีค่า Default ของตัวเองเป็น inherit และ ใช้ inherit กับ shorthand properties ไม่ได้
 
+```
+Pseudo-classes
+span:nth-child(3) หมายถึง span ตัวที่ 3
+< span > 1 < /span >
+< span > 2 < /span >
+< span > 3 < /span >
+< span > 4 < /span >
+```
+
 
 ## Margin & Padding
 - Inline Elements - only margin left and right
@@ -61,8 +70,8 @@ column-count : number of columns
     - Examples of semantic elements: form, table, and article - Clearly defines its content.
 
 ## Position & Layout
-- Static - Default of position
-- Relative - Similar to static but we can using **top, left, right, bottom** to set the position
+- Static - Default of position, อยู่กับที่
+- Relative - Similar to static but we can using **top, left, right, bottom** to set the position (ขยับไปไหนก็ได้ตามที่เราต้องการตามแกน x,y)
 - Fixed
-- Absolute
+- Absolute - ใช้คู่กับ relative ตัวอย่างเช่นถ้าเราอยากให้กล่องสีเขียวอยู่ในกล่องสีแดง ต้องกำหนดให้กล่องสีแดงเป็น relative และกล่องสีเขียนเป็น absolute
 - Sticky - A mixture of **static** and **fixed**
