@@ -34,22 +34,23 @@ column-count : number of columns
  - Inline Elements - Mostly of **letters**, **pictures** for instance *span, a, br, input, button, em, strong, textarea*
     - Don't take up and more room than their content need 
     - Inline Elements using **text-align** - Center used with **tag p** or **tag h** is a central way for content within that element, not the element itself
-    - ลักษณะการทำงานของ span มีความคล้ายคลึงกับการทำงาน ของ div ในเชิงแนวความคิด คือการนำเอามาจัดวางโครงสร้างเพื่อให้ใช้ css แสดงจัดการแสดงผลกับข้อมูล span tag จะถูกเรียกใช้งานก็ต่อเมื่อคุณต้องการจะเสกข้อมูลที่มีอยู่ในบรรทัดนั้นๆ ให้แสดงผลในรูปแบบและลักษณะแตกต่างออกไป (แค่รูปแบบการแสดงผลนะครับ ไม่เกี่ยวกับการเน้นย้ำเรื่องความหมาย) เช่น สีที่แตกต่าง หรือ ขีดเส้นใต้ มีขอบสี มีพื้นหลังไฮไลท์
-    - ทำสามารถ เเปลง inline Element เป็น block Element ได้ หรือเเปลงกลับไปกลับมาได้ด้วย โดยการใช้ **display:block;** เปลี่ยน inline Element เป็น Block
+    - The span tag behavior is similar to div operation. Manage the HTML structure to use CSS to display of data. The span tag will be invoked only if you want to insert the existing information in that line. To display the results in a different format and style (Just the display format __Not__ about emphasizing the meaning) Such as different colors or underlines, colored edges, highlighted backgrounds
+    - We can convert inline Element to block Element or revert by **display: block;** convert inline Element to block
 
 - Block level Element Most of them are __tags__ that **automatically line up** for instant *div, p, h1, header, footer, nav, ul, ol, li, table, video*
     - Take up the whole width of a page regardless of content
-    - Block-level Element ใช้ margin - auto (ต้องกำหนด width ให้กับ element ที่จะจัดให้อยู่กลางหน้าด้วย!) มักใช้กับ div และ Block-level Element อื่นๆ เป็นการจัดกลางหน้าให้ตัว element เอง ไม่เกี่ยวข้องกับ content ด้านใน Element นั้นๆ
-    - มันจะจองพื้นที่ส่วนหนึ่งเอาไว้เป็น Block เเนวนอนทั้งหมด
+    - Block-level Element uses margin - auto (Must also specify the width for the element to be placed in the middle of the page!) Usually used with div and other block-level elements. It is the center of the page that the element itself is not related to the content of that element.
+    - It will reserve a section of the space as a whole block.
 
 - used **equal** to get an exact match - a[href="example.com"]
 - used **Asterix equal** to say it includes this somewhere in value - a[href*="example"]
 - used **dollar sign** equal to say that this comes at the end of value - a[href$=".com"]
-- inherit นั้นเป็น Value ซึ่งถ้าตามหลัง Properties ตัวไหน มันก็จะสืบทอดค่ามาจาก parent โดย Properties ที่มีค่า Default ของตัวเองเป็น inherit และ ใช้ inherit กับ shorthand properties ไม่ได้
+- Inherit is Value, which after following Properties, Will inherit the value from parent. Properties that have their own Default value are inherited and cannot use inherit with shorthand properties.
 
 ```
 Pseudo-classes
-span:nth-child(3) หมายถึง span ตัวที่ 3
+span:nth-child(3) is mean span 3
+
 < span > 1 < /span >
 < span > 2 < /span >
 < span > 3 < /span >
@@ -70,8 +71,8 @@ span:nth-child(3) หมายถึง span ตัวที่ 3
     - Examples of semantic elements: form, table, and article - Clearly defines its content.
 
 ## Position & Layout
-- Static - Default of position, อยู่กับที่
-- Relative - Similar to static but we can using **top, left, right, bottom** to set the position (ขยับไปไหนก็ได้ตามที่เราต้องการตามแกน x,y)
-- Fixed
-- Absolute - ใช้คู่กับ relative ตัวอย่างเช่นถ้าเราอยากให้กล่องสีเขียวอยู่ในกล่องสีแดง ต้องกำหนดให้กล่องสีแดงเป็น relative และกล่องสีเขียนเป็น absolute
+- Static - Default of position, Stay still
+- Relative - Similar to static but we can using **top, left, right, bottom** to set the position (Can move anywhere that we want along the axis x,y)
+- Fixed - An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+- Absolute - Use with relative. For example, if we want the green box to be in the red box Must specify that the red box is relative and the color box is absolute
 - Sticky - A mixture of **static** and **fixed**

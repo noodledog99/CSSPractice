@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative & Absolute</title>
+    <style>
+        .pf {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 2px solid #333;
+            position: relative;
+            
+        }
+
+        .pf img {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        .pf .noti {
+            width: 50px;
+            height: 50px;
+            border: 50%;
+            background: red;
+            text-align: center;
+            position: absolute;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pf">
+        <div class="noti">1</div>
+        <img src="images/adoy-catnip.jpg" alt="">
+    </div>
+</body>
+
+</html>
